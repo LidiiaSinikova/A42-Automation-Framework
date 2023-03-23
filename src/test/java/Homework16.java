@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class Homework16 extends BaseTest {
     @Test
-    public void Navigation() {
+    public void navigation() {
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         String url = "http://bbb.testpro.io";
